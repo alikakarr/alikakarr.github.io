@@ -1,0 +1,21 @@
+// main: ../style.less
+
+
+.social {
+    margin-bottom: 42px;
+    display: flex;
+
+        @media @mobile-sm {
+        display: block;
+    }
+}
+
+.social_links {
+    text-decoration: underline;
+    margin-right: 10px;
+    transition: transform .2s linear;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
